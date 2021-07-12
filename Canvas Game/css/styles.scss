@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	position: relative;
+	overflow-x: hidden;
+}
+canvas {
+	width: 100vw;
+	height: 60vh;
+	z-index: -5;
+}
+
+#bottom {
+	z-index: 500;
+	h1 {
+		text-align: center;
+		font-size: 5rem;
+		font-weight: bolder;
+	}
+}
+img {
+	position: relative;
+	bottom: 800px;
+	width: 100%;
+	opacity: 0.4;
+}
